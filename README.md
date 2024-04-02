@@ -1,20 +1,21 @@
-# Ratpoision Plugin
+# Ratpoision
 
-> All you have to do is write one true sentence. Write the truest sentence that you know.  
-> (Ernest Hemingway)
+Hide the mouse pointer, useful for full-screen/zen/focus modes.
 
-A simple plugin for those who usually fight themselves to avoid editing while writing.
+The plugin adds several commands which you can assign to shortcuts, to buttons (using something like Commander) or you can just run using the command palette.
 
-Hemingway mode will disable all keys that are involved in editing (cursor movement, backspace, cut shortcut, etc.) and will only allow adding text at the end of the current note.
+* `Ratpoison: Set active`
+* `Ratpoison: Set inactive`
+* `Ratpoison: Toggle active`
 
-The plugin adds a command `Hemingway Mode: Toggle active` which you can assign to a shortcut, to a button (using something like Commander) or you can just run using the command palette.
+In the settings page you can activate/deactivate, and set if you want to show a text (and which one) in the status bar when active.
 
 ## Install
 
 You can follow one of the following methods:
 
-- Install from the community plugin registry under the name `Hemingway Mode`.
-- Install using [BRAT plugin](https://github.com/TfTHacker/obsidian42-brat) with repository `jobedom/obsidian-hemingway-mode`
-- Install manually by copying the release files (`main.js`, `manifest.json`, and `styles.css`) to `.obsidian/plugins/obsidian-hemingway-mode` in your vault.
+* Install from the community plugin registry under the name `Typing sounds`.
+* Install using [BRAT plugin](https://github.com/TfTHacker/obsidian42-brat) with repository `jobedom/obsidian-typing-sounds`
+* Install manually by copying the release files (`main.js` and `manifest.json`) to `.obsidian/plugins/obsidian-ratpoison` in your vault.
 
 Enjoy your writing!
